@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/564x/fe/8a/da/fe8ada4506e556737c4413a614b13033--bh-logo-buddhas-hand.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body >
+    <audio id="pilots">
+        <source src="assets/Sound/Twenty One Pilots - Stressed Out (Tomsize Remix).mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm" id="NameOfGame">
+                <h1>
+                    <strong>Crystal Collector</strong>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" id="insructions">
+                <h2>
+                    <strong>
+                        <span id="howToPlay"><em>How to play the game!</em></span>
+                    </strong>
+                </h2>
+
+                <p>You will be given a random at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of pionts to your
+                    total score. </p>
+                <p>You win the game by matching your total score to the random number, you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it. </p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-1" id = "magicNumber">
+                <span id="randomNumber"></span>
+            </div>
+            <div class="col-sm-2" id = "scoreWL">
+                <h3 class="WL">
+                    Wins:
+                    <span id="wins"></span>
+                    <br>
+                    Losses:
+                    <span id ="losses"></span>
+                </h3>
+            </div>
+            
+
+        </div>
+        <div class="row">
+            <div class="col-sm"  id="crystalImage">
+              <img src="assets/images/blue1.jpg" class=cImage id="one" alt="Blue Crystal">
+              <img src="assets/images/green.jpg" class="cImage" id="two" alt="Green Crystal">
+              <img src="assets/images/pink.jpg" class="cImage" id="three" alt="Pink Crystal">
+              <img src="assets/images/purple.jpg " class="cImage" id="four" alt="Purple Crystal">
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3" class="playerTotal" id="pT">
+                <p id="total"><strong>Your Score:
+                    <span id="finalScore"></span>
+                </strong></p>
+            </div>
+
+        </div>
+       
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

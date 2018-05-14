@@ -1,0 +1,89 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2017/09/05/23/01/background-2719572_960_720.jpg") ;
+    background-size: 100%;
+}
+
+#insructions{
+    border:2px solid ghostwhite;
+    box-shadow:0 0 20px #FF0000, 0 0 20px #0000FF;
+    margin:2% 50% 2% 2% ;
+    
+}
+h1{
+    color :ghostwhite;
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+    font-family: 'Permanent Marker', cursive;
+}
+#NameOfGame{
+    margin: 2% 60% 0% 2%;
+    border: 2px solid ghostwhite;
+    box-shadow:0 0 50px rgb(252, 251, 251), 0 0 50px #0000FF;
+}
+p{
+    color :black;
+    line-height: 100%;
+    font-family:  'Gloria Hallelujah', cursive;
+    font-style: bold;
+}
+#howToPlay{
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+#magicNumber{
+    float: left;
+    border: solid ghostwhite 2px;
+    
+    margin: 0% 2% 1% 2%;
+   
+    box-shadow:0 0 50px rgb(243, 5, 248), 0 0 50px #0000FF;
+    height: 60px;
+    ;
+}
+#scoreWL{
+    float: left;
+    border: solid ghostwhite 2px;
+    margin: 0% 2% 1% 2%;
+    box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px #0000FF;
+    
+}
+.WL{
+    font-family: 'Permanent Marker', cursive;
+
+}
+.cImage{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+}
+#one{
+    box-shadow:0 0 50px rgb(99, 179, 245), 0 0 50px #0000FF;
+}
+#two{
+    box-shadow:0 0 50px rgb(33, 252, 4), 0 0 50px rgb(5, 80, 34);
+}
+#three{   box-shadow:0 0 50px rgb(248, 5, 5), 0 0 50px rgb(255, 0, 200);
+}
+
+   
+#four{
+     box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);
+}
+#total{font-family: 'Permanent Marker', cursive;
+}
+#playerTotal{
+   
+    border: solid ghostwhite 2px;
+ 
+
+}
+#randomNumber{
+   font-family: 'Permanent Marker', cursive;
+   font-style: bold;
+   font-size: 50px;
+    text-align: center;
+   
+}
+ #pT{
+     margin: 2% 2% 2% 2%;
+      box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);}
