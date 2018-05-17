@@ -32,7 +32,7 @@ p{
 #magicNumber{
     float: left;
     border: solid ghostwhite 2px;
-    
+    box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);
     margin: 0% 2% 1% 2%;
    
     box-shadow:0 0 50px rgb(243, 5, 248), 0 0 50px #0000FF;
@@ -58,32 +58,68 @@ p{
 }
 #one{
     box-shadow:0 0 50px rgb(99, 179, 245), 0 0 50px #0000FF;
+    border-radius: 75px;
 }
 #two{
     box-shadow:0 0 50px rgb(33, 252, 4), 0 0 50px rgb(5, 80, 34);
-}
-#three{   box-shadow:0 0 50px rgb(248, 5, 5), 0 0 50px rgb(255, 0, 200);
+    border-radius: 75px;
 }
 
+#three{   
+    box-shadow:0 0 50px rgb(248, 5, 5), 0 0 50px rgb(255, 0, 200);
+    border-radius: 75px;
    
+}
+
 #four{
      box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);
-}
-#total{font-family: 'Permanent Marker', cursive;
-}
-#playerTotal{
-   
-    border: solid ghostwhite 2px;
- 
+     border-radius: 75px;
+ }
+#total{
+    padding: 10px 0px 0px 0px;
+    font-family: 'Permanent Marker', cursive;
 
 }
+
 #randomNumber{
    font-family: 'Permanent Marker', cursive;
    font-style: bold;
    font-size: 50px;
     text-align: center;
+    padding: 0px 0px 10px 0px;
    
 }
  #pT{
      margin: 2% 2% 2% 2%;
-      box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);}
+      box-shadow:0 0 50px rgb(240, 5, 248), 0 0 50px rgb(255, 0, 0);
+     
+   }
+      #resetBtn {
+        -webkit-animation-name: glowreset;
+        -webkit-animation-duration:8s;
+        -webkit-animation-iteration-count: infinite;
+        font-family: 'Permanent Marker', cursive;
+        background: transparent;
+      }
+      
+      @-webkit-keyframes glowBlue {
+        from {  -webkit-box-shadow: 0px 0px 50px rgb(0, 225, 255); }
+        50% {  -webkit-box-shadow: 0px 0px 100px #1120f0; }
+        to {  -webkit-box-shadow: 0px 0px 50px rgb(82, 241, 246); }
+      }
+      @-webkit-keyframes glowGreen1 {
+        from {  -webkit-box-shadow:0px 0px 100px rgb(50, 250, 15); }
+        50% {  -webkit-box-shadow: 0px 0px  200px #b3ff02; }
+        to {  -webkit-box-shadow:  0px 0px 100px rgb(17, 61, 0); }
+      }
+      
+      @-webkit-keyframes glowreset {
+        from { color: black; -webkit-box-shadow: 0 0 9px rgb(47, 0, 255); }
+        50% { color:gray; -webkit-box-shadow: 0 0 18px #03000c; }
+        to { color:blue; -webkit-box-shadow: 0 0 9px rgb(250, 15, 15); }
+      }
+      @-webkit-keyframes glowPink {
+        from {  -webkit-box-shadow:0px 0px 100px rgb(255, 44, 79); }
+        50% {  -webkit-box-shadow: 0px 0px  200px #fb0000; }
+        to {  -webkit-box-shadow:  0px 0px 100px rgb(255, 0, 55); }
+    }
