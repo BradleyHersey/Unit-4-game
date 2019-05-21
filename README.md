@@ -1,5 +1,16 @@
 # Unit-4-game https://bradleyhersey.github.io/Unit-4-game/
-This is by far my favorite  game Ive ever made .Its sample.
-It makes a random number and you have four crystals,each crystal has a value you cant see the value till you click it .
-you need to match the number i gave you if you = it you win and if you go over you loose sorry for you .
-Bewarn the crystal value change every round. 
+How to Play
+-A random number is generated on the page
+-Four gems are also displayed as buttons, each with a different hidden value
+-Each time the player clicks on a button, that hidden value is added to their total score
+-If the player matches their score to the random number, they win the game!
+-When the game is restarted, a new random number and new gem values are assigned
+Design Notes
+Gem buttons are assigned a number between 1 - 12
+Random number generated is a number between 19 - 120
+Built With
+HTML5
+CSS3
+Javascript
+jQuery Library
+Google Fonts
